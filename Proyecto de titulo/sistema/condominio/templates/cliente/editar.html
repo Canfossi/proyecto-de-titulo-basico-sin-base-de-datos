@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block titulo %} editar reserva {% endblock %}
+
+
+{% block contenido %}
+
+<div class="card">
+    <div class="card-header">Editar reserva</div>
+    <div class="card-body">
+        <h4 class="card-title">datos de la reserva </h4>
+        {% include 'cliente/formulario.html' %}
+    </div>
+    <div class="card-footer text-muted"></div>
+</div>
+
+{% endblock %} 

@@ -1,0 +1,9 @@
+
+/*este comando se tiene que poner en base y en usuario para que el mensaje este en cualquier pantalla.pero me dice que no se puede sale el mensaje que 
+Etiqueta de bloque no válida en la línea 6 de usuario.html : 'endblock'. ¿Olvidaste registrarte o cargar esta etiqueta?
+{% block contenido % } {% endblock %} 
+
+
+
+para arrancar el programa ocupar el comando python3 manage.py runserver
+el Django que se ocupo fue django 3.2.8
